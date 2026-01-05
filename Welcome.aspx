@@ -186,7 +186,7 @@
                             div2.style.display = 'block';
 
                             document.addEventListener('click', () => {
-                                window.location.href = '/Default.aspx';
+                                window.location.href = '/Home.aspx';
                             }, { once: true });
                         }, showDelay);
                     }

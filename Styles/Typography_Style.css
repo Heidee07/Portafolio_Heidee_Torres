@@ -1,0 +1,124 @@
+﻿
+/*_________________________ FUENTES _________________________*/
+
+/* ---- Títulos ---- */
+
+h6, .poppins-h6 {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-size: clamp(0.85rem, 1vw, 1rem);
+    font-weight: bold;
+    font-style: normal;
+}
+
+h5, .poppins-h5 {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-size: clamp(1rem, 1.2vw, 1.25rem);
+    font-weight: bold;
+    font-style: normal;
+}
+
+h4, .poppins-h4 {
+    color: #D22AA8;
+    font-family: "Poppins", sans-serif;
+    font-size: clamp(1.25rem, 1.6vw, 1.75rem);
+    font-weight: bold;
+    font-style: normal;
+}
+
+h3, .poppins-h3 {
+    color: #D22AA8;
+    font-family: "Poppins", sans-serif;
+    font-size: clamp(1.6rem, 2.2vw, 2.3rem);
+    font-weight: bold;
+    font-style: normal;
+}
+
+h2, .poppins-h2 {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: clamp(2rem, 3vw, 3.2rem);
+    font-weight: bold;
+    font-style: normal;
+}
+
+h1, .poppins-h1 {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: clamp(2.6rem, 4vw, 4rem);
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* ---- Párrafo ---- */
+p, .poppins-p {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: clamp(0.9rem, 1.2vw, 1.2rem);
+    font-weight: 200;
+    font-style: normal;
+}
+
+/* ---- Texto de Objetos ---- */
+a {
+    color: #D22AA8;
+    font-family: "Poppins", sans-serif;
+    font-size: clamp(1rem, 1.2vw, 1.25rem);
+    font-weight: bold;
+    font-style: normal;
+}
+
+.txt-btn-dark {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: clamp(1rem, 1.2vw, 1.25rem);
+    font-weight: bold;
+    font-style: normal;
+}
+
+.txt-btn-light {
+    color: #D22AA8;
+    font-family: "Poppins", sans-serif;
+    font-size: clamp(1rem, 1.2vw, 1.25rem);
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+/*_________________________ ÍCONOS _________________________*/
+.i-light {
+    color: white;
+}
+
+.i-color {
+    color: #D22AA8;
+}
+
+.i-semidark {
+    color: #811D68;
+}
+
+.i-dark {
+    color: black;
+}
+
+.i-xs {
+    font-size: clamp(0.75rem, 1vw, 0.85rem);
+}
+
+.i-s {
+    font-size: clamp(0.9rem, 1.2vw, 1.1rem);
+}
+
+.i-m {
+    font-size: clamp(1.1rem, 1.6vw, 1.4rem);
+}
+
+.i-l {
+    font-size: clamp(1.4rem, 2.2vw, 1.9rem);
+}
+
+.i-xl {
+    font-size: clamp(1.9rem, 3vw, 2.6rem);
+}
