@@ -6,9 +6,11 @@
         <header>
             <div class="g-col-1 g-col-md-1">
                 <div class="vstack mx-auto">
-                    <i class="bi bi-linkedin" style="color: white;"></i>
-                    <i class="bi bi-envelope-fill" style="color: white;"></i>
-                </div>                
+                    <i class="bi bi-linkedin i-light"></i>
+                    <i class="bi bi-envelope-fill i-light"></i>
+                </div>  
+                <div>
+                </div>
             </div>
         </header>
     </main>
