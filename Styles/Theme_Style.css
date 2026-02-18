@@ -1,16 +1,22 @@
-﻿/* ========== Backgrounds ========== */
+﻿/* ==================== Backgrounds ==================== */
 body, html {
     background-color: #0D0C0E;
     margin-left: 0;
     margin-right: 0;
 }
 
-/* ========== Spacing ========== */
-section {
+/* ==================== Spacing ==================== */
+.sctn-spacing1 {
+   padding: 20px 0;
+}
+
+.sctn-spacing2 {
     /*margin-left: 2%;
     margin-right: 2%;*/
-
-    padding: 20px 0;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    padding: 2% 3% 2% 3%;
+    background-color: #0A0A0A;
 }
 
 .letter-spacing-2 {
@@ -18,8 +24,7 @@ section {
     font-size: 0.9rem;
 }
 
-/* ========== Gradients ========== */
-
+/* ==================== Gradients ==================== */
 :root {
     --gradient-primary: linear-gradient( 270deg, 
                                         rgba(17, 11, 15, 0.25), 
@@ -33,20 +38,55 @@ section {
     background: var(--gradient-primary);
 }
 
-/* ========== Buttons ========== */
-
+/* ==================== Buttons ==================== */
 .btn-outline-light:hover {
     background-color: #D22AA8 !important;
     border-color: #D22AA8 !important;
     transform: translateY(-3px); /* Se eleva un poquito */
 }
 
-/* ========== Dividers ========== */
+.btn-dark {
+    background-color: transparent;
+    border-color: white;
+    border: 0.25vh solid;
+    color: white;
+    padding: 1vh 2vh 1vh 2vh;
+    border-radius: 2vh;
+}
+
+    .btn-dark:hover {
+        transition: all 0.3s;
+        background-color: #D22AA8;
+        border-color: #D22AA8;
+        color: black;
+    }
+
+/* Botón Neón */
+.btn-neon {
+    display: inline-block;
+    padding: 8px 26px;
+    color: #D22AA8;
+    border: 2px solid #D22AA8;
+    background-color: rgba(210, 42, 168, 0.1); /* Fondo rosa transparente */
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+    .btn-neon:hover {
+        background: #D22AA8;
+        color: #fff;
+        box-shadow: 0 0 20px #D22AA8;
+    }
+
+/* ==================== Dividers ==================== */
 
 
 
 
-/* ========== Images ========== */
+/* ==================== Images ==================== */
 .img-xs {
     max-width: clamp(40px, 6vw, 60px);
 }
@@ -88,4 +128,47 @@ img {
 .img-frame-pink {
     border: 3px solid #D22AA8;
     animation: neon-pulse 2s ease-in-out infinite;
+}
+
+/* Wrapper de la imagen */
+.project-img-wrapper {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #333;
+    transition: transform 0.3s ease;
+    opacity: 50%;
+}
+
+    /* Efecto hover en la imagen */
+    .project-img-wrapper:hover {
+        transform: scale(1.02);
+        border-color: #D22AA8;
+        box-shadow: 0 0 25px rgba(210, 42, 168, 0.2);
+        transition: transform 1s ease;
+        opacity: 100%;
+    }
+
+
+/* ==================== Etiquetas ==================== */
+.tech-tag {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.1);
+    color: #D22AA8;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    border: 1px solid rgba(210, 42, 168, 0.3);
+}
+
+.skill-badge {
+    background-color: rgba(210, 42, 168, 0.1); /* Fondo rosa transparente */
+    border: 1px solid #D22AA8;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
 }

@@ -147,6 +147,7 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Home.aspx" />
+    <Content Include="Images\dashboard_xml.png" />
     <Content Include="Images\me.jpg" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -180,6 +181,7 @@
     <Content Include="Styles\Welcome_Style.css" />
     <Content Include="Styles\Theme_Style.css" />
     <Content Include="Welcome.aspx" />
+    <Content Include="Files\CV-HeideeTorres.pdf" />
     <None Include="Scripts\jquery-3.7.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.0.js" />
     <Content Include="Scripts\jquery-3.7.0.min.js" />

@@ -2,7 +2,6 @@
 /*_________________________ FUENTES _________________________*/
 
 /* ---- Títulos ---- */
-
 h6, .poppins-h6 {
     color: black;
     font-family: "Poppins", sans-serif;
@@ -83,6 +82,12 @@ a {
     font-size: clamp(1rem, 1.2vw, 1.25rem);
     font-weight: bold;
     font-style: normal;
+}
+
+/* ---- Highlight ---- */
+.txt-pink-highlight {
+    color: #D22AA8;
+    font-weight: 600;
 }
 
 
