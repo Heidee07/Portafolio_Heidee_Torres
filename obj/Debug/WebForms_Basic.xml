@@ -37,6 +37,15 @@ Portafolio_Heidee_Torres
  Devuelve el objeto de registro Asp.
  </summary>
 </member>
+<member name="F:Portafolio_Heidee_Torres.Home._btnDownloadCV">
+<summary>
+Control btnDownloadCV.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:Portafolio_Heidee_Torres.SiteMaster._MainContent">
 <summary>
 Control MainContent.
