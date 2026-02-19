@@ -1,9 +1,11 @@
 ﻿/* ==================== Backgrounds ==================== */
 body, html {
-    background-color: #0D0C0E;
+    /*background-color: #0D0C0E;*/
+    background-color: #131214;
     margin-left: 0;
     margin-right: 0;
 }
+
 
 /* ==================== Spacing ==================== */
 .sctn-spacing1 {
@@ -24,6 +26,7 @@ body, html {
     font-size: 0.9rem;
 }
 
+
 /* ==================== Gradients ==================== */
 :root {
     --gradient-primary: linear-gradient( 270deg, 
@@ -37,6 +40,7 @@ body, html {
 .bg-pink-gradient {
     background: var(--gradient-primary);
 }
+
 
 /* ==================== Buttons ==================== */
 .btn-outline-light:hover {
@@ -79,6 +83,28 @@ body, html {
         background: #D22AA8;
         color: #fff;
         box-shadow: 0 0 20px #D22AA8;
+    }
+
+.btn-neon-lg {
+    display: inline-flex;
+    align-items: center;
+    padding: 15px 40px;
+    font-size: 1.1rem;
+    color: #fff;
+    background-color: #D22AA8;
+    border: 2px solid #D22AA8;
+    border-radius: 50px; /* Redondo completo */
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 0 15px rgba(210, 42, 168, 0.4);
+    transition: all 0.3s ease;
+}
+
+    .btn-neon-lg:hover {
+        background-color: transparent;
+        color: #D22AA8;
+        box-shadow: 0 0 25px rgba(210, 42, 168, 0.8);
+        transform: translateY(-3px);
     }
 
 /* ==================== Dividers ==================== */
@@ -172,3 +198,129 @@ img {
     font-size: 0.9rem;
     transition: all 0.3s ease;
 }
+
+.badge.bg-pink {
+    background-color: #D22AA8 !important;
+    color: #fff;
+    font-weight: normal;
+    font-size: 0.8rem;
+}
+
+
+/* ==================== Cards ==================== */
+
+/* Tech Cards */
+.skill-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+
+    .skill-card:hover {
+        border-color: #D22AA8;
+        box-shadow: 0 0 20px rgba(210, 42, 168, 0.2);
+        transform: translateY(-5px);
+    }
+
+.tech-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 90px;
+    transition: transform 0.2s;
+    color: lightgray;
+}
+
+    .tech-item:hover {
+        transform: scale(1.1);
+    }
+
+    .tech-item i {
+        font-size: 3rem; 
+        margin-bottom: 5px;
+        color: #ccc; 
+        transition: color 0.3s ease;
+    }
+
+.skill-card:hover .tech-item i {
+    color: #fff;
+    text-shadow: 0 0 10px rgba(210, 42, 168, 0.6);
+}
+
+.tech-item span {
+    font-size: 0.8rem;
+    color: #aaa;
+}
+
+/* Crystal card */
+.resume-card {
+    background: rgba(23, 12, 20, 0.6);
+    border-left: 4px solid #D22AA8;
+    border-radius: 8px;
+    padding: 2rem;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+    .resume-card:hover {
+        background: rgba(23, 12, 20, 0.9);
+        transform: translateX(5px);
+        box-shadow: 0 0 20px rgba(210, 42, 168, 0.1);
+    }
+
+/* El Banner de Contacto */
+.contact-banner {
+    background: linear-gradient(145deg, rgba(23, 12, 20, 0.9), #0D0C0E);
+    border: 1px solid rgba(210, 42, 168, 0.2);
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+    .contact-banner::before {
+        content: '';
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+        background: radial-gradient(circle, rgba(210, 42, 168, 0.05) 0%, rgba(0,0,0,0) 60%);
+        pointer-events: none; 
+    }
+
+
+/* ==================== List ==================== */
+.custom-list {
+    list-style: none; 
+    padding-left: 0;
+}
+
+    .custom-list li {
+        position: relative;
+        padding-left: 20px;
+        margin-bottom: 10px;
+    }
+
+        /* Flecha antes de cada item */
+        .custom-list li::before {
+            content: "›";
+            position: absolute;
+            left: 0;
+            color: #D22AA8;
+            font-weight: bold;
+            font-size: 1.2rem;
+            line-height: 1rem;
+            top: 2px;
+        }
+
+
+
+
+
+
+
+
