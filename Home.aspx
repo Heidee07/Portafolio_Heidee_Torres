@@ -137,6 +137,222 @@
             </div>
         </section>
 
+
+        <%-- _____________________ Mis Habilidades _____________________ --%>
+        <section class="py-5 sctn-spacing2">
+            <div class="container">
+
+                <div class="row mb-5">
+                    <div class="col-12 text-center">
+                        <h3 class="fw-bold text-white">Mis <span style="color: #D22AA8;">Habilidades</span></h3>
+                    </div>
+                </div>
+
+                <div class="row g-4 justify-content-center">
+                    <%--Backend & Datos--%>
+                    <div class="col-12 col-md-4">
+                        <div class="skill-card text-center p-4 h-100">
+                            <div class="icon-header mb-3">
+                                <i class="bi bi-hdd-rack-fill fs-1 i-semidark"></i>
+                            </div>
+                            <h4 class="mb-4 txt-dark-pink-highlight">Backend & Datos</h4>
+
+                            <div class="d-flex flex-wrap justify-content-center gap-3">
+                                <div class="tech-item">
+                                    <i class="devicon-csharp-plain"></i>
+                                    <span>C#</span>
+                                </div>
+                                <div class="tech-item">
+                                    <i class="devicon-dot-net-plain-wordmark"></i>
+                                    <span>VB.NET</span>
+                                </div>
+                                <div class="tech-item">
+                                    <i class="devicon-microsoftsqlserver-plain"></i>
+                                    <span>SQL Server</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <%--Frontend & Diseño--%>
+                    <div class="col-12 col-md-4">
+                        <div class="skill-card text-center p-4 h-100">
+                            <div class="icon-header mb-3">
+                                <i class="bi bi-window-fullscreen fs-1 i-semidark"></i>
+                            </div>
+                            <h4 class="txt-dark-pink-highlight mb-4">Frontend & Diseño</h4>
+
+                            <div class="d-flex flex-wrap justify-content-center gap-3">
+                                <div class="tech-item">
+                                    <i class="devicon-html5-plain"></i>
+                                    <span>HTML5</span>
+                                </div>
+                                <div class="tech-item">
+                                    <i class="devicon-css3-plain"></i>
+                                    <span>CSS3</span>
+                                </div>
+                                <div class="tech-item">
+                                    <i class="devicon-javascript-plain"></i>
+                                    <span>JavaScript</span>
+                                </div>
+                                <div class="tech-item">
+                                    <i class="devicon-bootstrap-plain"></i>
+                                    <span>Bootstrap</span>
+                                </div>
+                                <div class="tech-item">
+                                    <i class="devicon-figma-plain"></i>
+                                    <span>Figma</span>
+                                </div>
+                                <div class="tech-item">
+                                    <i class="devicon-canva-original"></i>
+                                    <span>Canva</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <%--Herramientas--%>
+                    <div class="col-12 col-md-4">
+                        <div class="skill-card text-center p-4 h-100">
+                            <div class="icon-header mb-3">
+                                <i class="bi bi-tools fs-1 i-semidark"></i>
+                            </div>
+                            <h4 class="txt-dark-pink-highlight mb-4">Herramientas</h4>
+
+                            <div class="d-flex flex-wrap justify-content-center gap-3">
+                                <div class="tech-item">
+                                    <i class="devicon-git-plain"></i>
+                                    <span>Git</span>
+                                </div>
+                                <div class="tech-item">
+                                    <i class="devicon-github-original"></i>
+                                    <span>GitHub</span>
+                                </div>
+                                <div class="tech-item">
+                                    <i class="bi bi-file-earmark-word-fill" style="font-size: 2.5rem;"></i>
+                                    <span>Office</span>
+                                </div>
+
+                                <div class="w-100 mt-3 pt-3 border-top border-secondary">
+                                    <span class="badge bg-dark border border-secondary p-2 me-1">Español (Nativo)</span>
+                                    <span class="badge bg-dark border border-secondary p-2">Inglés (B1)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <%-- _____________________ Mi Trayectoria _____________________ --%>
+        <section class="py-5 sctn-spacing2">
+            <div class="container">
+
+                <div class="row mb-5">
+                    <div class="col-12 text-center">
+                        <h3 class="fw-bold text-white">Mi <span style="color: #D22AA8;">Trayectoria</span></h3>
+                    </div>
+                </div>
+
+                <div class="row g-4">
+
+                    <div class="col-12 col-lg-6">
+                        <div class="resume-card h-100">
+
+                            <div class="d-flex align-items-center mb-4">
+                                <div class="icon-box me-3">
+                                    <i class="bi bi-briefcase-fill"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-white fw-bold mb-0">Formación Profesional</h4>
+                                    <span class="txt-pink-highlight small">Experiencia Real</span>
+                                </div>
+                            </div>
+
+                            <div class="resume-item">
+                                <div class="d-flex justify-content-between align-items-start mb-2">
+                                    <h5 class="text-white fw-bold">Club de Fútbol Monterrey (Rayados)</h5>
+                                    <span class="badge bg-pink">2024 - 2025</span>
+                                </div>
+                                <p class="text-muted mb-2 fst-italic">Desarrolladora Full Stack (Prácticas)</p>
+
+                                <ul class="custom-list text-light opacity-75">
+                                    <li>Colaboración en el desarrollo de la intranet corporativa a nivel empresa.</li>
+                                    <li>Ejecución de pruebas (QA) para asegurar la calidad del sistema.</li>
+                                    <li>Lideré la automatización de lectura de facturas XML (Proyecto RayaXML).</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-6">
+                        <div class="resume-card h-100">
+
+                            <div class="d-flex align-items-center mb-4">
+                                <div class="icon-box me-3">
+                                    <i class="bi bi-mortarboard-fill"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-white fw-bold mb-0">Formación Académica</h4>
+                                    <span class="txt-pink-highlight small">Educación Superior</span>
+                                </div>
+                            </div>
+
+                            <div class="resume-item">
+                                <div class="d-flex justify-content-between align-items-start mb-2">
+                                    <h5 class="text-white fw-bold">Ingeniería en Tecnología de Software</h5>
+                                    <span class="badge bg-pink">2021 - 2025</span>
+                                </div>
+                                <p class="text-muted mb-2">UANL - FIME | <span class="text-white">Promedio: 91</span></p>
+
+                                <ul class="custom-list text-light opacity-75">
+                                    <li>Egresada (Título en trámite).</li>
+                                    <li>Presentación de proyecto ante representante del CONAHCYT.</li>
+                                    <li>Participación en coloquios de proyectos de desarrollo.</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    
+
+        <section class="py-5 sctn-spacing2">
+            <div class="container">
+
+                <div class="contact-banner text-center p-5">
+
+                    <p class="txt-pink-highlight text-uppercase letter-spacing-2 mb-2">¿Te gustó mi trabajo?</p>
+
+                    <h2 class="display-4 fw-bold text-white mb-4">Hagamos <span class="txt-pink-highlight">Networking</span>
+                    </h2>
+
+                    <p class="text-light opacity-75 mb-5 mx-auto" style="max-width: 600px;">
+                        Actualmente estoy buscando oportunidades como Desarrolladora Web / Software Engineer. 
+                        Si tienes una vacante disponible, ¡me encantaría platicar contigo!
+                    </p>
+
+                    <div class="d-flex justify-content-center gap-3 flex-wrap">
+
+                        <a href="mailto:hei752.dee@gmail.com" class="btn-neon-lg">
+                            <i class="bi bi-envelope-paper-heart-fill me-2"></i>Envíame un Correo
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/heidee-judith-t-1a00b330a" target="_blank" class="btn btn-outline-light btn-lg px-4 rounded-pill d-flex align-items-center">
+                            <i class="bi bi-linkedin me-2"></i>LinkedIn
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
     </main>
 </asp:Content>
 
