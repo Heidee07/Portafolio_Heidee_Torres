@@ -42,6 +42,50 @@ body, html {
 }
 
 
+/* ========== Navbar ========== */
+.navbar.sticky-top {
+    background-color: rgba(13, 12, 14, 0.7) !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); /* Safari */
+    z-index: 1030;
+}
+
+/* Language */
+.lang-toggle {
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.lang-link { /* Estado Inactivo */
+    color: #666;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+    .lang-link:hover {
+        color: #fff;
+        text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+    }
+
+    .lang-link.active { /* Estado Activo */
+        color: #D22AA8 !important;
+        text-shadow: 0 0 12px rgba(210, 42, 168, 0.8);
+        pointer-events: none;
+    }
+
+.lang-separator {
+    color: #333;
+    font-weight: 300;
+}
+
+.i-translate {
+    color: #333;
+    font-weight: 300;
+    margin-right: 10px;
+}
+
+
 /* ==================== Buttons ==================== */
 .btn-outline-light:hover {
     background-color: #D22AA8 !important;
