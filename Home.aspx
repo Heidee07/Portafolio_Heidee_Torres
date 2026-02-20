@@ -2,6 +2,8 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <main>
+
+        <%-- _____________________ Header _____________________ --%>
         <header class="bg-pink-gradient">
             <section class="sctn-spacing1">
                 <div class="container text-center">
@@ -245,6 +247,7 @@
             </div>
         </section>
 
+
         <%-- _____________________ Mi Trayectoria _____________________ --%>
         <section class="py-5 sctn-spacing2">
             <div class="container">
@@ -322,6 +325,7 @@
         </section>
     
 
+        <%-- _____________________ Networking _____________________ --%>
         <section class="py-5 sctn-spacing2">
             <div class="container">
 
@@ -352,7 +356,8 @@
                 </div>
 
             </div>
-        </section>
+        </section>            
+
     </main>
 </asp:Content>
 

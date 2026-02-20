@@ -55,9 +55,42 @@
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <hr />
-            <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - Mi aplicación ASP.NET</p>
+
+            <div class="footer-divider" style="height: 2px; background: linear-gradient(90deg, transparent, #D22AA8, transparent);"></div>
+
+            <footer class="py-4" style="background-color: #0D0C0E;">
+                <div class="container">
+                    <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+
+                        <div class="text-light opacity-75 small text-center text-md-start">
+                            &copy; <%: DateTime.Now.Year %> Heidee Torres.
+                 <br class="d-md-none">
+                            Todos los derechos reservados.
+                        </div>
+
+                        <div class="d-flex align-items-center justify-content-center text-light opacity-75 small">
+                            <span class="me-2">Desarrollado con:</span>
+                            <i class="devicon-html5-plain fs-4 mx-1 tech-icon-footer" title="HTML5"></i>
+                            <i class="devicon-css3-plain fs-4 mx-1 tech-icon-footer" title="CSS3"></i>
+                            <span class="fw-bold mx-1 tech-icon-footer" style="font-size: 1.1rem; cursor: default;" title="Visual Basic">VB</span>
+                        </div>
+
+                        <div class="d-flex gap-2">
+                            <a href="mailto:hei752.dee@gmail.com" class="social-icon-footer">
+                                <i class="bi bi-envelope-fill fs-5"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/heidee-judith-t-1a00b330a" target="_blank" class="social-icon-footer">
+                                <i class="bi bi-linkedin fs-5"></i>
+                            </a>
+                            <%--<a href="#" target="_blank" class="social-icon-footer">
+                                <i class="bi bi-github fs-5"></i>
+                            </a>--%>
+                        </div>
+
+                    </div>
+                </div>
             </footer>
+
         </div>
     </form>
     <asp:PlaceHolder runat="server">

@@ -107,10 +107,6 @@ body, html {
         transform: translateY(-3px);
     }
 
-/* ==================== Dividers ==================== */
-
-
-
 
 /* ==================== Images ==================== */
 .img-xs {
@@ -316,11 +312,3 @@ img {
             line-height: 1rem;
             top: 2px;
         }
-
-
-
-
-
-
-
-
