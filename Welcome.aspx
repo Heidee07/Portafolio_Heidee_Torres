@@ -22,9 +22,6 @@
         <div id="divTxt" runat="server">
             <h1></h1>
         </div>
-        <div id="divTxt2" runat="server">
-            <h4>Da click en cualquier lugar para iniciar</h4>
-        </div>
     </form>
 
      <%--ESTRELLAS FUGACES--%>
@@ -144,56 +141,44 @@
         });
     </script>
 
-    <%--MAQUINA DE ESCRIBIR--%>
+    <%--MAQUINA DE ESCRIBIR Y REDIRECCIÓN AUTOMÁTICA--%>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            const phrases = ["Bienvenido(a)...", "a mi portafolio"];
+            
+            const textToType = "< Hello World />";
             const el = document.querySelector('#divTxt h1');
-            const div1 = document.getElementById('divTxt');
-            const div2 = document.getElementById('divTxt2');
-            const typingSpeed = 100;
-            const pauseBetween = 1000;
-            const showDelay = 5; //5 milisegundos después de erase
+        
+            const typingSpeed = 120; // Velocidad de escritura
+            const pauseBeforeTransition = 1500; // 1.5 segundos de pausa antes de ir al Home
 
-            let phraseIndex = 0;
             let charIndex = 0;
 
+            // Función para escribir
             function type() {
-                const current = phrases[phraseIndex];
-                if (charIndex < current.length) {
-                    el.textContent += current.charAt(charIndex++);
+                if (charIndex < textToType.length) {
+                    el.textContent += textToType.charAt(charIndex++);
                     setTimeout(type, typingSpeed);
                 } else {
-                    setTimeout(() => erase(), pauseBetween);
+                    // Espera un momento y lanza la transición
+                    setTimeout(transitionToHome, pauseBeforeTransition);
                 }
             }
 
-            function erase() {
-                if (charIndex > 0) {
-                    el.textContent = el.textContent.slice(0, -1);
-                    charIndex--;
-                    setTimeout(erase, typingSpeed / 2);
-                } else {
-                    phraseIndex++;
-                    if (phraseIndex < phrases.length) {
-                        setTimeout(type, typingSpeed);
-                    } else {
-                        // termina el typing/erase
-                        el.style.borderRight = 'none';
-                        // tras 2s oculta divTxt y muestra divTxt2
-                        setTimeout(() => {
-                            div1.style.display = 'none';
-                            div2.style.display = 'block';
-
-                            document.addEventListener('click', () => {
-                                window.location.href = '/Home.aspx';
-                            }, { once: true });
-                        }, showDelay);
-                    }
-                }
+            // Fade Out y redirección
+            function transitionToHome() {
+                // Quita el cursor
+                el.style.borderRight = 'none'; 
+                            
+                document.body.classList.add('fade-out'); 
+            
+                // 1 segundo (lo que dura el CSS) y redirigimos
+                setTimeout(() => {
+                    window.location.href = '/Home.aspx';
+                }, 1000); 
             }
+
             type();
-        });
+         });
     </script>
 
 </body>
