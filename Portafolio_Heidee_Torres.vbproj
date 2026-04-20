@@ -147,6 +147,12 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Home.aspx" />
+    <Content Include="Home_Section_Habilidades.ascx" />
+    <Content Include="Home_Section_Header.ascx" />
+    <Content Include="Home_Section_Networking.ascx" />
+    <Content Include="Home_Section_Proyectos.ascx" />
+    <Content Include="Home_Section_SobreMi.ascx" />
+    <Content Include="Home_Section_Trayectoria.ascx" />
     <Content Include="Images\dashboard_xml.png" />
     <Content Include="Images\me.jpg" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -244,6 +250,48 @@
     </Compile>
     <Compile Include="Home.aspx.vb">
       <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home_Section_Habilidades.ascx.designer.vb">
+      <DependentUpon>Home_Section_Habilidades.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Home_Section_Habilidades.ascx.vb">
+      <DependentUpon>Home_Section_Habilidades.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home_Section_Header.ascx.designer.vb">
+      <DependentUpon>Home_Section_Header.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Home_Section_Header.ascx.vb">
+      <DependentUpon>Home_Section_Header.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home_Section_Networking.ascx.designer.vb">
+      <DependentUpon>Home_Section_Networking.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Home_Section_Networking.ascx.vb">
+      <DependentUpon>Home_Section_Networking.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home_Section_Proyectos.ascx.designer.vb">
+      <DependentUpon>Home_Section_Proyectos.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Home_Section_Proyectos.ascx.vb">
+      <DependentUpon>Home_Section_Proyectos.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home_Section_SobreMi.ascx.designer.vb">
+      <DependentUpon>Home_Section_SobreMi.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Home_Section_SobreMi.ascx.vb">
+      <DependentUpon>Home_Section_SobreMi.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home_Section_Trayectoria.ascx.designer.vb">
+      <DependentUpon>Home_Section_Trayectoria.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Home_Section_Trayectoria.ascx.vb">
+      <DependentUpon>Home_Section_Trayectoria.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
