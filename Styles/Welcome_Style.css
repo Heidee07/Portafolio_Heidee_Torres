@@ -132,8 +132,9 @@ body {
 h1 {
     color: #D22AA8;
     font-size: 9.6vh;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 200;
+    font-style: normal;
 }
 
 /*------------------------------------------------------------------------------*/
@@ -171,8 +172,9 @@ h1 {
 h4 {
     color: white;
     font-size: 2vh;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 200;
+    font-style: normal;
     animation: breathe 3s ease-in-out infinite;
 }
 
