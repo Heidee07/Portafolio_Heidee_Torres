@@ -137,15 +137,6 @@ h1 {
     font-style: normal;
 }
 
-#divTxt2 {
-    margin-top: 2.5%;
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 50%;
-    transform: translate(-50%, 0%);
-}
-
 /*------------------------------------------------------------------------------*/
 /*MÁQUINA DE ESCRIBIR*/
 #divTxt {
@@ -206,3 +197,16 @@ h4 {
         text-shadow: 0 0 2px rgba(255,255,255,0.5);
     }
 }
+
+/*------------------------------------------------------------------------------*/
+
+/*TRANSICIÓN*/
+
+/* Transición suave */
+body {
+    transition: opacity 1s ease-in-out;
+}
+
+    body.fade-out {
+        opacity: 0;
+    }
