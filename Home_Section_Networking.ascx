@@ -6,19 +6,19 @@
 
          <div class="contact-banner text-center p-5">
 
-             <p class="txt-pink-highlight text-uppercase letter-spacing-2 mb-2">¿Te gustó mi trabajo?</p>
+             <p class="txt-pink-highlight text-uppercase letter-spacing-2 mb-2" data-i18n="subtitulo_networking">¿Te gustó mi trabajo?</p>
 
-             <h2 class="display-4 fw-bold text-white mb-4">Hagamos <span class="txt-pink-highlight">Networking</span>
+             <h2 class="display-4 fw-bold text-white mb-4" data-i18n="titulo_networking">Hagamos <span class="txt-pink-highlight">Networking</span>
              </h2>
 
-             <p class="text-light opacity-75 mb-5 mx-auto" style="max-width: 600px;">
+             <p class="text-light opacity-75 mb-5 mx-auto" style="max-width: 600px;" data-i18n="desc_networking">
                  Actualmente estoy buscando oportunidades como Desarrolladora Web / Software Engineer. 
                  Si tienes una vacante disponible, ¡me encantaría platicar contigo!
              </p>
 
              <div class="d-flex justify-content-center gap-3 flex-wrap">
 
-                 <a href="mailto:hei752.dee@gmail.com" class="btn-neon-lg">
+                 <a href="mailto:hei752.dee@gmail.com" class="btn-neon-lg" data-i18n="boton1_networking">
                      <i class="bi bi-envelope-paper-heart-fill me-2"></i>Envíame un Correo
                  </a>
 

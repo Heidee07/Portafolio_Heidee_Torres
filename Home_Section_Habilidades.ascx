@@ -6,7 +6,7 @@
 
         <div class="row mb-5">
             <div class="col-12 text-center">
-                <h3 class="fw-bold text-white">Mis <span style="color: #D22AA8;">Habilidades</span></h3>
+                <h3 class="fw-bold text-white" data-i18n="titulo_mis_habilidades">Mis <span style="color: #D22AA8;">Habilidades</span></h3>
             </div>
         </div>
 
@@ -17,7 +17,7 @@
                     <div class="icon-header mb-3">
                         <i class="bi bi-hdd-rack-fill fs-1 i-semidark"></i>
                     </div>
-                    <h4 class="mb-4 txt-dark-pink-highlight">Backend & Datos</h4>
+                    <h4 class="mb-4 txt-dark-pink-highlight" data-i18n="subtitulo1_mis_habilidades">Backend & Datos</h4>
 
                     <div class="d-flex flex-wrap justify-content-center gap-3">
                         <div class="tech-item">
@@ -42,7 +42,7 @@
                     <div class="icon-header mb-3">
                         <i class="bi bi-window-fullscreen fs-1 i-semidark"></i>
                     </div>
-                    <h4 class="txt-dark-pink-highlight mb-4">Frontend & Diseño</h4>
+                    <h4 class="txt-dark-pink-highlight mb-4" data-i18n="subtitulo2_mis_habilidades">Frontend & Diseño</h4>
 
                     <div class="d-flex flex-wrap justify-content-center gap-3">
                         <div class="tech-item">
@@ -79,7 +79,7 @@
                     <div class="icon-header mb-3">
                         <i class="bi bi-tools fs-1 i-semidark"></i>
                     </div>
-                    <h4 class="txt-dark-pink-highlight mb-4">Herramientas</h4>
+                    <h4 class="txt-dark-pink-highlight mb-4" data-i18n="subtitulo3_mis_habilidades">Herramientas</h4>
 
                     <div class="d-flex flex-wrap justify-content-center gap-3">
                         <div class="tech-item">
@@ -96,8 +96,8 @@
                         </div>
 
                         <div class="w-100 mt-3 pt-3 border-top border-secondary">
-                            <span class="badge bg-dark border border-secondary p-2 me-1">Español (Nativo)</span>
-                            <span class="badge bg-dark border border-secondary p-2">Inglés (B1)</span>
+                            <span class="badge bg-dark border border-secondary p-2 me-1" data-i18n="ES_mis_habilidades">Español (Nativo)</span>
+                            <span class="badge bg-dark border border-secondary p-2" data-i18n="EN_mis_habilidades">Inglés (B1)</span>
                         </div>
                     </div>
                 </div>
