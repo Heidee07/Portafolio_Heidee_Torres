@@ -6,13 +6,26 @@
     End Sub
 
     Protected Sub btnDownloadCV_Click(sender As Object, e As EventArgs) Handles btnDownloadCV.Click
-        Dim filePath As String = Server.MapPath("~/Files/CV-HeideeTorres.pdf")
+
+        Dim idioma As String = "es"
+
+        If Request.Cookies("selectedLanguage") IsNot Nothing Then
+            idioma = Request.Cookies("selectedLanguage").Value
+        End If
+
+        Dim nombreArchivo As String = "CV-HeideeTorres.pdf"
+
+        If idioma = "en" Then
+            nombreArchivo = "CV-HeideeTorres-EN.pdf"
+        End If
+
+        Dim filePath As String = Server.MapPath("~/Files/" & nombreArchivo)
 
         Try
             If System.IO.File.Exists(filePath) Then
                 Response.Clear()
                 Response.ContentType = "application/pdf"
-                Response.AddHeader("Content-Disposition", "attachment; filename=CV-HeideeTorres.pdf")
+                Response.AddHeader("Content-Disposition", "attachment; filename=" & nombreArchivo)
                 Response.TransmitFile(filePath)
                 Response.End()
             End If

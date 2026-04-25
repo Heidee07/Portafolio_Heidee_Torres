@@ -11,10 +11,10 @@
                 </div>
 
                 <div class="col-12 col-md-6 align-self-center text-center text-md-start" style="text-align: start;">
-                    <p class="letter-spacing-2 opacity-75">MI PORTAFOLIO</p>
+                    <p class="letter-spacing-2 opacity-75" data-i18n="titulo_header">MI PORTAFOLIO</p>
                     <h1>HEIDEE TORRES</h1>
-                    <h3>Desarrolladora Web</h3>
-                    <p class="opacity-75">Ing. en Tecnología de Software</p>
+                    <h3 data-i18n="subtitulo_header">Desarrolladora Web</h3>
+                    <p class="opacity-75" data-i18n="desc_header">Ing. en Tecnología de Software</p>
                     <div class="d-none d-md-block bg-pink mb-4" style="width: 80px; height: 3px; background-color: #D22AA8;"></div>
                     <div class="d-flex gap-3 justify-content-center justify-content-md-start">
                         <a href="https://www.linkedin.com/in/heidee-judith-t-1a00b330a" target="_blank"

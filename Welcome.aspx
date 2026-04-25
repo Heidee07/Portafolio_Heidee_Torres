@@ -5,18 +5,15 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome</title>
 </head>
 <body class="body-gradient">
     <link href="Styles/Welcome_Style.css" rel="stylesheet" type="text/css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
-    <style>
-        
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
 
     <form id="form1" runat="server">
         <div id="divTxt" runat="server">
@@ -142,7 +139,7 @@
     </script>
 
     <%--MAQUINA DE ESCRIBIR Y REDIRECCIÓN AUTOMÁTICA--%>
-    <script>
+   <%-- <script>
         document.addEventListener('DOMContentLoaded', () => {
             
             const textToType = "< Hello World />";
@@ -179,7 +176,55 @@
 
             type();
          });
-    </script>
+    </script>--%>
+
+    <%--MAQUINA DE ESCRIBIR Y REDIRECCIÓN AUTOMÁTICA--%>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+
+        // Le damos al navegador un micro-respiro de 150ms para que pinte todo antes de medir
+        setTimeout(() => {
+            const textToType = "< Hello World />";
+            const container = document.getElementById('divTxt');
+            const el = container.querySelector('h1');
+
+            // 1. Medimos
+            el.textContent = textToType;
+            const anchoFinal = el.getBoundingClientRect().width;
+
+            // 2. Fijamos tamaño
+            container.style.width = Math.ceil(anchoFinal) + 5 + 'px';
+            el.textContent = '';
+
+            // 3. ¡Quitamos la capa de invisibilidad!
+            container.style.opacity = '1';
+
+            const typingSpeed = 120;
+            const pauseBeforeTransition = 1500;
+            let charIndex = 0;
+
+            function type() {
+                if (charIndex < textToType.length) {
+                    el.textContent += textToType.charAt(charIndex++);
+                    setTimeout(type, typingSpeed);
+                } else {
+                    setTimeout(transitionToHome, pauseBeforeTransition);
+                }
+            }
+
+            function transitionToHome() {
+                el.style.borderRight = 'none';
+                document.body.classList.add('fade-out');
+
+                setTimeout(() => {
+                    window.location.href = 'Home.aspx';
+                }, 1000);
+            }
+
+            type();
+        }, 150); // Fin del tiempo de seguridad
+    });
+</script>
 
 </body>
 </html>

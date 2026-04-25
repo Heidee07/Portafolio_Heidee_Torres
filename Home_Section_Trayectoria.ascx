@@ -6,7 +6,7 @@
 
          <div class="row mb-5">
              <div class="col-12 text-center">
-                 <h3 class="fw-bold text-white">Mi <span style="color: #D22AA8;">Trayectoria</span></h3>
+                 <h3 class="fw-bold text-white" data-i18n="titulo_mi_trayectoria">Mi <span style="color: #D22AA8;">Trayectoria</span></h3>
              </div>
          </div>
 
@@ -20,8 +20,8 @@
                              <i class="bi bi-briefcase-fill"></i>
                          </div>
                          <div>
-                             <h4 class="text-white fw-bold mb-0">Formación Profesional</h4>
-                             <span class="txt-pink-highlight small">Experiencia Real</span>
+                             <h4 class="text-white fw-bold mb-0" data-i18n="subtitulo1_Prof_trayectoria">Formación Profesional</h4>
+                             <span class="txt-pink-highlight small" data-i18n="etiqueta1_Prof_trayectoria">Experiencia Real</span>
                          </div>
                      </div>
 
@@ -30,9 +30,9 @@
                              <h5 class="text-white fw-bold">Club de Fútbol Monterrey (Rayados)</h5>
                              <span class="badge bg-pink">2024 - 2025</span>
                          </div>
-                         <p class="text-muted mb-2 fst-italic">Desarrolladora Full Stack (Prácticas)</p>
+                         <p class="text-muted mb-2 fst-italic" data-i18n="puesto1_Prof_trayectoria">Desarrolladora Full Stack (Prácticas)</p>
 
-                         <ul class="custom-list text-light opacity-75">
+                         <ul class="custom-list text-light opacity-75" data-i18n="lista1_Prof_trayectoria">
                              <li>Colaboración en el desarrollo de la intranet corporativa a nivel empresa.</li>
                              <li>Ejecución de pruebas (QA) para asegurar la calidad del sistema.</li>
                              <li>Lideré la automatización de lectura de facturas XML (Proyecto RayaXML).</li>
@@ -50,19 +50,19 @@
                              <i class="bi bi-mortarboard-fill"></i>
                          </div>
                          <div>
-                             <h4 class="text-white fw-bold mb-0">Formación Académica</h4>
-                             <span class="txt-pink-highlight small">Educación Superior</span>
+                             <h4 class="text-white fw-bold mb-0" data-i18n="subtitulo1_Acad_trayectoria">Formación Académica</h4>
+                             <span class="txt-pink-highlight small" data-i18n="etiqueta1_Acad_trayectoria">Educación Superior</span>
                          </div>
                      </div>
 
                      <div class="resume-item">
                          <div class="d-flex justify-content-between align-items-start mb-2">
-                             <h5 class="text-white fw-bold">Ingeniería en Tecnología de Software</h5>
+                             <h5 class="text-white fw-bold" data-i18n="grado1_Acad_trayectoria">Ingeniería en Tecnología de Software</h5>
                              <span class="badge bg-pink">2021 - 2025</span>
                          </div>
-                         <p class="text-muted mb-2">UANL - FIME | <span class="text-white">Promedio: 91</span></p>
+                         <p class="text-muted mb-2" data-i18n="institucion1_Acad_trayectoria">UANL - FIME | <span class="text-white">Promedio: 91</span></p>
 
-                         <ul class="custom-list text-light opacity-75">
+                         <ul class="custom-list text-light opacity-75" data-i18n="lista1_Acad_trayectoria">
                              <li>Egresada (Título en trámite).</li>
                              <li>Presentación de proyecto ante representante del CONAHCYT.</li>
                              <li>Participación en coloquios de proyectos de desarrollo.</li>
