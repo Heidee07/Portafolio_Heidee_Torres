@@ -11,6 +11,7 @@
             </div>
         </div>
 
+        <%--Proyecto 1: Sistema de Automatización de Facturas XML--%>
         <div class="row align-items-center mb-5 project-row">
 
             <div class="col-12 col-md-7 mb-4 mb-md-0">
@@ -42,12 +43,64 @@
 
                 <div class="d-flex gap-3 align-items-center">
                     <a href="https://youtu.be/KO4R2ibyrzQ" target="_blank"
-                            rel="noopener noreferrer" class="btn-neon letter-spacing-2 txt-btn-light" data-i18n="boton1_mis_proyectos">
-                        <i class="bi bi-play-fill fs-5 me-1"></i>Ver Demo
+                            rel="noopener noreferrer" class="btn-neon letter-spacing-2 txt-btn-light">
+                        <i class="bi bi-youtube fs-5 me-1"></i>
+                        <span data-i18n="boton1_mis_proyectos">Ver Demo</span>
                     </a>
 
                     <small class="text-muted" style="font-size: 0.75rem; max-width: 150px; line-height: 1.2;" data-i18n="nota1_mis_proyectos">* Video con datos censurados por confidencialidad.
                     </small>
+                </div>
+            </div>
+
+        </div>
+
+        <%--Proyecto 2: CoffeeSync--%>
+        <div class="row align-items-center mb-5 project-row border-top border-secondary pt-5">
+
+            <div class="col-12 col-md-7 mb-4 mb-md-0">
+                <div class="project-img-wrapper">
+                    <img src="Images/CoffeeSync_Home.png" alt="Vista previa del proyecto" class="img-fluid rounded shadow-lg">
+
+                    <div class="overlay-glow"></div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-5">
+                <h5 class="fw-bold text-white mb-3" data-i18n="subtitulo2_mis_proyectos">CoffeSync</h5>
+
+                <p class="text-light opacity-75 mb-4" style="text-align: justify;" data-i18n="desc2_mis_proyectos">
+                    Sistema web de Punto de Venta (POS) para cafeterías. Combina una arquitectura robusta con seguridad basada en roles (RBAC) y manejo de carrito en sesión, envuelto en una interfaz de usuario (UI/UX) moderna, intuitiva y optimizada para la operación diaria.                
+                </p>
+
+                <div class="mb-4">
+                    <span class="tech-tag">C#</span>
+                    <span class="tech-tag">ASP.NET Core</span>
+                    <span class="tech-tag">SQL Server</span>
+                    <span class="tech-tag">Entity Framework Core</span>
+                    <span class="tech-tag">Razor</span>
+                    <span class="tech-tag">Bootstrap</span>
+                    <span class="tech-tag">jQuery</span>
+                    <span class="tech-tag">AJAX</span>
+                </div>
+
+                <div class="p-3 rounded mb-4" data-i18n="cred2_mis_proyectos" style="background-color: rgba(210, 42, 168, 0.08); border: 1px dashed #D22AA8;">
+                    <span class="d-block text-white fw-bold small mb-1">🔑 Credenciales de acceso rápido:</span>
+                    <span class="text-light small d-block">Admin: <code>admin / 1234</code> | Barista: <code>barista / cafe</code></span>
+                </div>
+
+                <div class="d-flex flex-column flex-sm-row gap-3 align-items-stretch align-items-sm-center">
+                    <a href="https://github.com/Heidee07/CoffeeSync" target="_blank"
+                        rel="noopener noreferrer" class="btn-neon letter-spacing-2 txt-btn-light text-center">
+                        <i class="bi bi-github fs-5 me-1"></i>
+                        <span data-i18n="boton2.1_mis_proyectos">Ver Código</span>
+                    </a>
+                    <a href="http://coffeesync.somee.com" target="_blank"
+                        rel="noopener noreferrer" class="btn-neon letter-spacing-2 txt-btn-light text-center">
+                        <i class="bi bi-browser-chrome fs-5 me-1"></i>
+                        <span data-i18n="boton2.2_mis_proyectos">Ver Demo</span>
+                    </a>
+
                 </div>
             </div>
 

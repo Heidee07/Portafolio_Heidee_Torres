@@ -13,6 +13,7 @@
                     Ingeniera de software especializada en desarrollo web y diseño, apasionada
                     por la creación de soluciones digitales eficientes, con conocimiento en 
                     <span class="txt-pink-highlight">Visual Basic .NET</span>, 
+                    <span class="txt-pink-highlight">C#</span>, 
                     <span class="txt-pink-highlight">HTML/CSS</span> y 
                     <span class="txt-pink-highlight">SQL Server</span>. 
                     Cuento con experiencia práctica optimizando

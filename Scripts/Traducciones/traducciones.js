@@ -10,7 +10,7 @@ const traducciones = {
         "desc_header": "Ing. en Tecnología de Software",
         /*Sobre Mí*/
         "titulo_sobre_mi": "Sobre <span style='color: #D22AA8;'>Mí</span>",
-        "desc_sobre_mi": "Ingeniera de software especializada en desarrollo web y diseño, apasionada por la creación de soluciones digitales eficientes, con conocimiento en <span class= 'txt-pink-highlight'>Visual Basic .NET</span>,  <span class='txt-pink-highlight'>HTML / CSS</span> y <span class='txt-pink-highlight'>SQL Server</span>. Cuento con experiencia práctica optimizando procesos corporativos, logrando reducir tiempos operativos hasta en un 75% mediante automatización.Destaco por mi sentido de la responsabilidad, mi capacidad para colaborar en equipos multidisciplinarios y mantener un alto rendimiento.",
+        "desc_sobre_mi": "Ingeniera de software especializada en desarrollo web y diseño, apasionada por la creación de soluciones digitales eficientes, con conocimiento en <span class= 'txt-pink-highlight'>Visual Basic .NET</span>, <span class='txt-pink-highlight'>C#</span>,  <span class='txt-pink-highlight'>HTML / CSS</span> y <span class='txt-pink-highlight'>SQL Server</span>. Cuento con experiencia práctica optimizando procesos corporativos, logrando reducir tiempos operativos hasta en un 75% mediante automatización.Destaco por mi sentido de la responsabilidad, mi capacidad para colaborar en equipos multidisciplinarios y mantener un alto rendimiento.",
         "boton_sobre_mi": "CV",
         /*Mis Proyectos*/
         "titulo1_mis_proyectos": "Mis <span style='color: #D22AA8;'>Proyectos</span>",
@@ -18,7 +18,12 @@ const traducciones = {
         "desc1_mis_proyectos": "Solución web Full-Stack para el Club de Fútbol Monterrey desarrollada para optimizar el flujo financiero de una organización deportiva profesional. El sistema procesa, valida y almacena facturas XML automáticamente, reemplazando tareas manuales repetitivas.<br> <br> <span style='color: #D22AA8; font-weight: bold;'>Impacto: </span>Reducción del tiempo de procesamiento de 2 días laborales a 45 minutos (95% de eficiencia) y eliminación casi total de errores de captura.",
         "boton1_mis_proyectos": "Ver Demo",
         "nota1_mis_proyectos": "* Video con datos censurados por confidencialidad.",
-        "anuncio_mis_proyectos": "🚧 Trabajando en el próximo proyecto...",
+        "subtitulo2_mis_proyectos": "CoffeeSync",
+        "desc2_mis_proyectos": "Sistema web de Punto de Venta (POS) para cafeterías. Combina una arquitectura robusta con seguridad basada en roles (RBAC) y manejo de carrito en sesión, envuelto en una interfaz de usuario (UI/UX) moderna, intuitiva y optimizada para la operación diaria.",
+        "cred2_mis_proyectos": "<span class='d-block text-white fw-bold small mb-1'>🔑 Credenciales de acceso rápido:</span><span class='text-light small d-block'>Admin: <code>admin / 1234</code> | Barista: <code>barista / cafe</code></span>", 
+        "boton2.1_mis_proyectos": "Ver Código",
+        "boton2.2_mis_proyectos": "Ver Demo",
+        "anuncio_mis_proyectos": "🚧 Trabajando en el próximo proyecto...",        
         /*Mis Habilidades*/
         "titulo_mis_habilidades": "Mis <span style='color: #D22AA8;'> Habilidades</span>",
         "subtitulo1_mis_habilidades": "Backend & Datos",
@@ -55,7 +60,7 @@ const traducciones = {
         "desc_header": "Software Technology Engineer",
         /*About Me*/
         "titulo_sobre_mi": "About <span style='color: #D22AA8;'>Me</span>",
-        "desc_sobre_mi": "Software engineer specializing in web development and design, passionate about creating efficient digital solutions, with knowledge in <span class='txt-pink-highlight'>Visual Basic .NET</span>, <span class='txt-pink-highlight'>HTML / CSS</span>, and <span class='txt-pink-highlight'>SQL Server</span>. I have practical experience optimizing corporate processes, achieving up to a 75% reduction in operational times through automation. I stand out for my sense of responsibility, my ability to collaborate in multidisciplinary teams, and maintaining high performance.",
+        "desc_sobre_mi": "Software engineer specializing in web development and design, passionate about creating efficient digital solutions, with knowledge in <span class='txt-pink-highlight'>Visual Basic .NET</span>, <span class='txt-pink-highlight'>C#</span>,  <span class='txt-pink-highlight'>HTML / CSS</span>, and <span class='txt-pink-highlight'>SQL Server</span>. I have practical experience optimizing corporate processes, achieving up to a 75% reduction in operational times through automation. I stand out for my sense of responsibility, my ability to collaborate in multidisciplinary teams, and maintaining high performance.",
         "boton_sobre_mi": "Resume",
         /*My Projects*/
         "titulo1_mis_proyectos": "My <span style='color: #D22AA8;'>Projects</span>",
@@ -63,6 +68,11 @@ const traducciones = {
         "desc1_mis_proyectos": "Full-Stack web solution for the Club de Futbol Monterrey developed to optimize the financial flow of a professional sports organization. The system automatically processes, validates, and stores XML invoices, replacing repetitive manual tasks.<br> <br> <span style='color: #D22AA8; font-weight: bold;'>Impact: </span>Reduction of processing time from 2 business days to 45 minutes (95% efficiency) and almost total elimination of capture errors.",
         "boton1_mis_proyectos": "View Demo",
         "nota1_mis_proyectos": "* Video with censored data for confidentiality.",
+        "subtitulo2_mis_proyectos": "CoffeeSync",
+        "desc2_mis_proyectos": "Web-based Point of Sale (POS) system for coffee shops. It combines a robust architecture with role-based access control (RBAC) and session-based cart management, wrapped in a modern, intuitive UI/UX optimized for daily operations.",
+        "cred2_mis_proyectos": "<span class='d-block text-white fw-bold small mb-1'>🔑 Quick access credentials:</span><span class='text-light small d-block'>Admin: <code>admin / 1234</code> | Barista: <code>barista / cafe</code></span>",
+        "boton2.1_mis_proyectos": "View Code",
+        "boton2.2_mis_proyectos": "View Demo",
         "anuncio_mis_proyectos": "🚧 Working on the next project...",
         /*My Skills*/
         "titulo_mis_habilidades": "My <span style='color: #D22AA8;'>Skills</span>",

@@ -23,10 +23,14 @@
                         <div class="tech-item">
                             <i class="devicon-csharp-plain"></i>
                             <span>C#</span>
+                        </div>                        
+                        <div class="tech-item">
+                            <i class="devicon-visualbasic-plain"></i>
+                            <span>Visual Basic</span>
                         </div>
                         <div class="tech-item">
                             <i class="devicon-dot-net-plain-wordmark"></i>
-                            <span>VB.NET</span>
+                            <span>.NET</span>
                         </div>
                         <div class="tech-item">
                             <i class="devicon-microsoftsqlserver-plain"></i>

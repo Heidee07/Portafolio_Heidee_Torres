@@ -153,6 +153,7 @@
     <Content Include="Home_Section_Proyectos.ascx" />
     <Content Include="Home_Section_SobreMi.ascx" />
     <Content Include="Home_Section_Trayectoria.ascx" />
+    <Content Include="Images\CoffeeSync_Home.png" />
     <Content Include="Images\dashboard_xml.png" />
     <Content Include="Images\me.jpg" />
     <Content Include="Scripts\bootstrap.bundle.js" />
