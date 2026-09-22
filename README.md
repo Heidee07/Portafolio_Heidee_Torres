@@ -5,9 +5,9 @@ A modern, responsive, and fully bilingual personal portfolio designed to showcas
 
 ---
 
-## 📸 Preview
+## 📷 Preview
 
-![Portfolio Preview](<img width="1846" height="938" alt="portafolio_ss" src="https://github.com/user-attachments/assets/f29c05ae-27dd-4c8c-a7da-015f70f123e5" />)
+![Portfolio Preview](https://github.com/user-attachments/assets/f29c05ae-27dd-4c8c-a7da-015f70f123e5)
 
 ---
 
