@@ -4,18 +4,25 @@ const traducciones = {
     "es": {
         "nav_es": "ES",
         "nav_en": "EN",
+        "nav_sobre_mi": "Sobre Mí",
+        "nav_mis_proyectos": "Mis Proyectos",
+        "nav_mis_habilidades": "Mis Habilidades",
+        "nav_mi_trayectoria": "Mi Trayectoria",
+        "nav_networking": "Networking",
         /*Header*/
         "titulo_header": "MI PORTAFOLIO",
-        "subtitulo_header": "Desarrolladora Web",
+        "subtitulo_header": "Desarrolladora .NET",
         "desc_header": "Ing. en Tecnología de Software",
+        "loc_header": "<i class='bi bi-geo-alt-fill me-1' style='color: #D22AA8;'></i>Guadalupe, Nuevo León, México",
+        "estatus_header": "<i class='bi bi-briefcase-fill me-1' style='color: #D22AA8;'></i>Open to Work",
         /*Sobre Mí*/
         "titulo_sobre_mi": "Sobre <span style='color: #D22AA8;'>Mí</span>",
-        "desc_sobre_mi": "Ingeniera de software especializada en desarrollo web y diseño, apasionada por la creación de soluciones digitales eficientes, con conocimiento en <span class= 'txt-pink-highlight'>Visual Basic .NET</span>, <span class='txt-pink-highlight'>C#</span>,  <span class='txt-pink-highlight'>HTML / CSS</span> y <span class='txt-pink-highlight'>SQL Server</span>. Cuento con experiencia práctica optimizando procesos corporativos, logrando reducir tiempos operativos hasta en un 75% mediante automatización.Destaco por mi sentido de la responsabilidad, mi capacidad para colaborar en equipos multidisciplinarios y mantener un alto rendimiento.",
-        "boton_sobre_mi": "CV",
+        "desc_sobre_mi": "Ingeniera de software especializada en desarrollo .NET y soluciones digitales eficientes, con conocimientos en <span class='txt-pink-highlight'>.NET</span>, <span class='txt-pink-highlight'>C#</span>, <span class='txt-pink-highlight'>Visual Basic</span>, <span class='txt-pink-highlight'>HTML / CSS</span> y <span class='txt-pink-highlight'>SQL Server</span>. Cuento con experiencia práctica optimizando procesos corporativos, logrando reducir tiempos operativos hasta en un 75% mediante automatización. Destaco por mi sentido de la responsabilidad, capacidad para colaborar en equipos multidisciplinarios y enfoque en la calidad de entrega.",
+        "boton_sobre_mi": "Descargar CV",
         /*Mis Proyectos*/
         "titulo1_mis_proyectos": "Mis <span style='color: #D22AA8;'>Proyectos</span>",
         "subtitulo1_mis_proyectos": "Sistema de Automatización de Facturas XML",
-        "desc1_mis_proyectos": "Solución web Full-Stack para el Club de Fútbol Monterrey desarrollada para optimizar el flujo financiero de una organización deportiva profesional. El sistema procesa, valida y almacena facturas XML automáticamente, reemplazando tareas manuales repetitivas.<br> <br> <span style='color: #D22AA8; font-weight: bold;'>Impacto: </span>Reducción del tiempo de procesamiento de 2 días laborales a 45 minutos (95% de eficiencia) y eliminación casi total de errores de captura.",
+        "desc1_mis_proyectos": "Solución web Full-Stack para el Club de Fútbol Monterrey desarrollada para optimizar el flujo financiero de una organización deportiva profesional. El sistema procesa, valida y almacena facturas XML automáticamente, reemplazando tareas manuales repetitivas.<br> <br> <span style='color: #D22AA8; font-weight: bold;'>Impacto: </span>Reducción del tiempo de procesamiento de 2 días laborales a 45 minutos (+75% de eficiencia) y eliminación casi total de errores de captura.",
         "boton1_mis_proyectos": "Ver Demo",
         "nota1_mis_proyectos": "* Video con datos censurados por confidencialidad.",
         "subtitulo2_mis_proyectos": "CoffeeSync",
@@ -33,10 +40,10 @@ const traducciones = {
         "EN_mis_habilidades": "Inglés (B1)",
         /*Mi Trayectoria*/
         "titulo_mi_trayectoria": "Mi <span style='color: #D22AA8;'>Trayectoria</span>",
-        "subtitulo1_Prof_trayectoria": "Formación Profesional",
+        "subtitulo1_Prof_trayectoria": "Experiencia Profesional",
         "etiqueta1_Prof_trayectoria": "Experiencia Real",
         "puesto1_Prof_trayectoria": "Desarrolladora Full Stack (Prácticas)",
-        "lista1_Prof_trayectoria": "<li>Colaboración en el desarrollo de la intranet corporativa a nivel empresa.</li><li>Ejecución de pruebas(QA) para asegurar la calidad del sistema.</li><li>Lideré la automatización de lectura de facturas XML (Proyecto RayaXML).</li>",
+        "lista1_Prof_trayectoria": "<li>Colaboración en el desarrollo de la intranet corporativa a nivel empresa.</li><li>Ejecución de pruebas (QA) para asegurar la calidad del sistema.</li><li>Lideré la automatización de lectura de facturas XML (Proyecto RayaXML).</li>",
         "subtitulo1_Acad_trayectoria": "Formación Académica",
         "etiqueta1_Acad_trayectoria": "Educación Superior",
         "grado1_Acad_trayectoria": "Ingeniería en Tecnología de Software",
@@ -45,27 +52,34 @@ const traducciones = {
         /*Networking*/
         "subtitulo_networking": "¿Te gustó mi trabajo?",
         "titulo_networking": "Hagamos <span class='txt-pink-highlight'>Networking</span>",
-        "desc_networking": "Actualmente estoy buscando oportunidades como Desarrolladora Web / Software Engineer. Si tienes una vacante disponible, ¡me encantaría platicar contigo!",
+        "desc_networking": "Actualmente estoy en búsqueda de oportunidades como Desarrolladora .NET. Si tienes una vacante disponible, ¡me encantaría platicar contigo!",
         "boton1_networking": "Envíame un Correo",
         /*Footer*/
-        "derechos_footer": "&copy; " + new Date().getFullYear() + " Heidee Torres.<br class='d-md-none'> Todos los derechos reservados.",
+        "derechos_footer": "&copy; " + new Date().getFullYear() + " HeiDeev | Heidee Torres.<br class='d-md-none'> Todos los derechos reservados.",
         "devtools_footer": "Desarrollado con:"
     },
     "en": {
         "nav_es": "ES",
         "nav_en": "EN",
+        "nav_sobre_mi": "About Me",
+        "nav_mis_proyectos": "My Projects",
+        "nav_mis_habilidades": "My Skills",
+        "nav_mi_trayectoria": "My Career",
+        "nav_networking": "Networking",
         /*Header*/
         "titulo_header": "MY PORTFOLIO",
-        "subtitulo_header": "Web Developer",
+        "subtitulo_header": ".NET Developer",
         "desc_header": "Software Technology Engineer",
+        "loc_header": "<i class='bi bi-geo-alt-fill me-1' style='color: #D22AA8;'></i>Guadalupe, Nuevo Leon, Mexico",
+        "estatus_header": "<i class='bi bi-briefcase-fill me-1' style='color: #D22AA8;'></i>Open to Work",
         /*About Me*/
         "titulo_sobre_mi": "About <span style='color: #D22AA8;'>Me</span>",
-        "desc_sobre_mi": "Software engineer specializing in web development and design, passionate about creating efficient digital solutions, with knowledge in <span class='txt-pink-highlight'>Visual Basic .NET</span>, <span class='txt-pink-highlight'>C#</span>,  <span class='txt-pink-highlight'>HTML / CSS</span>, and <span class='txt-pink-highlight'>SQL Server</span>. I have practical experience optimizing corporate processes, achieving up to a 75% reduction in operational times through automation. I stand out for my sense of responsibility, my ability to collaborate in multidisciplinary teams, and maintaining high performance.",
-        "boton_sobre_mi": "Resume",
+        "desc_sobre_mi": "Software Engineer specializing in .NET development and efficient digital solutions, with knowledge in <span class='txt-pink-highlight'>.NET</span>, <span class='txt-pink-highlight'>C#</span>, <span class='txt-pink-highlight'>Visual Basic</span>,  <span class='txt-pink-highlight'>HTML / CSS</span>, and <span class='txt-pink-highlight'>SQL Server</span>. Hands-on experience optimizing corporate processes, successfully reducing operational times by up to 75% through process automation. Known for strong accountability, collaborative teamwork in multidisciplinary environments, and high attention to code quality and delivery.",
+        "boton_sobre_mi": "Download Resume",
         /*My Projects*/
         "titulo1_mis_proyectos": "My <span style='color: #D22AA8;'>Projects</span>",
         "subtitulo1_mis_proyectos": "XML Invoice Automation System",
-        "desc1_mis_proyectos": "Full-Stack web solution for the Club de Futbol Monterrey developed to optimize the financial flow of a professional sports organization. The system automatically processes, validates, and stores XML invoices, replacing repetitive manual tasks.<br> <br> <span style='color: #D22AA8; font-weight: bold;'>Impact: </span>Reduction of processing time from 2 business days to 45 minutes (95% efficiency) and almost total elimination of capture errors.",
+        "desc1_mis_proyectos": "Full-Stack web solution for the Club de Futbol Monterrey developed to optimize the financial flow of a professional sports organization. The system automatically processes, validates, and stores XML invoices, replacing repetitive manual tasks.<br> <br> <span style='color: #D22AA8; font-weight: bold;'>Impact: </span>Reduction of processing time from 2 business days to 45 minutes (+75% efficiency) and almost total elimination of capture errors.",
         "boton1_mis_proyectos": "View Demo",
         "nota1_mis_proyectos": "* Video with censored data for confidentiality.",
         "subtitulo2_mis_proyectos": "CoffeeSync",
@@ -95,10 +109,10 @@ const traducciones = {
         /*Networking*/
         "subtitulo_networking": "Did you like my work?",
         "titulo_networking": "Let's do <span class='txt-pink-highlight'>Networking</span>",
-        "desc_networking": "I am currently looking for opportunities as a Web Developer / Software Engineer. If you have an open position, I would love to chat with you!",
+        "desc_networking": "I am currently looking for new opportunities as a .NET Developer. If you have an open role, I'd love to connect!",
         "boton1_networking": "Send Me an Email",
         /*Footer*/        
-        "derechos_footer": "&copy; " + new Date().getFullYear() + " Heidee Torres.<br class='d-md-none'> All rights reserved.",
+        "derechos_footer": "&copy; " + new Date().getFullYear() + " HeiDeev | Heidee Torres.<br class='d-md-none'> All rights reserved.",
         "devtools_footer": "Developed with:"
     }
 };

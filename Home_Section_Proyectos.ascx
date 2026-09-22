@@ -1,7 +1,7 @@
 ﻿<%@ Control Language="vb" AutoEventWireup="false" CodeBehind="Home_Section_Proyectos.ascx.vb" Inherits="Portafolio_Heidee_Torres.Home_Section_Proyectos" %>
 
 <%-- _____________________ Mis proyectos _____________________ --%>
-<section class="py-5 sctn-spacing2">
+<section class="py-5 sctn-spacing2" id="proyectos">
     <div class="container">
 
         <div class="row">
@@ -13,7 +13,6 @@
 
         <%--Proyecto 1: Sistema de Automatización de Facturas XML--%>
         <div class="row align-items-center mb-5 project-row">
-
             <div class="col-12 col-md-7 mb-4 mb-md-0">
                 <div class="project-img-wrapper">
                     <img src="Images/dashboard_xml.png" alt="Vista previa del proyecto" class="img-fluid rounded shadow-lg">
@@ -23,7 +22,9 @@
             </div>
 
             <div class="col-12 col-md-5">
-                <h5 class="fw-bold text-white mb-3" data-i18n="subtitulo1_mis_proyectos">Sistema de Automatización de Facturas XML</h5>
+                <h5 class="fw-bold text-white mb-3 ps-3 bg-pink-gradient tit-proy-badge" data-i18n="subtitulo1_mis_proyectos">
+                    Sistema de Automatización de Facturas XML
+                </h5>
 
                 <p class="text-light opacity-75 mb-4" style="text-align: justify;" data-i18n="desc1_mis_proyectos">
                     Solución web Full-Stack para el Club de Fútbol Monterrey desarrollada para optimizar el flujo financiero de una organización deportiva profesional. 
@@ -41,7 +42,7 @@
                     <span class="tech-tag">Bootstrap</span>
                 </div>
 
-                <div class="d-flex gap-3 align-items-center">
+                <div class="d-flex flex-wrap gap-3 align-items-center">
                     <a href="https://youtu.be/KO4R2ibyrzQ" target="_blank"
                             rel="noopener noreferrer" class="btn-neon letter-spacing-2 txt-btn-light">
                         <i class="bi bi-youtube fs-5 me-1"></i>
@@ -67,7 +68,9 @@
             </div>
 
             <div class="col-12 col-md-5">
-                <h5 class="fw-bold text-white mb-3" data-i18n="subtitulo2_mis_proyectos">CoffeSync</h5>
+                <h5 class="fw-bold text-white mb-3 ps-3 bg-pink-gradient tit-proy-badge" data-i18n="subtitulo2_mis_proyectos">
+                    CoffeSync   
+                </h5>
 
                 <p class="text-light opacity-75 mb-4" style="text-align: justify;" data-i18n="desc2_mis_proyectos">
                     Sistema web de Punto de Venta (POS) para cafeterías. Combina una arquitectura robusta con seguridad basada en roles (RBAC) y manejo de carrito en sesión, envuelto en una interfaz de usuario (UI/UX) moderna, intuitiva y optimizada para la operación diaria.                
@@ -89,7 +92,7 @@
                     <span class="text-light small d-block">Admin: <code>admin / 1234</code> | Barista: <code>barista / cafe</code></span>
                 </div>
 
-                <div class="d-flex flex-column flex-sm-row gap-3 align-items-stretch align-items-sm-center">
+                <div class="d-flex flex-wrap gap-3 align-items-center mt-2">
                     <a href="https://github.com/Heidee07/CoffeeSync" target="_blank"
                         rel="noopener noreferrer" class="btn-neon letter-spacing-2 txt-btn-light text-center">
                         <i class="bi bi-github fs-5 me-1"></i>

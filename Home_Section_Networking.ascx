@@ -1,7 +1,7 @@
 ﻿<%@ Control Language="vb" AutoEventWireup="false" CodeBehind="Home_Section_Networking.ascx.vb" Inherits="Portafolio_Heidee_Torres.Home_Section_Networking" %>
 
  <%-- _____________________ Networking _____________________ --%>
- <section class="py-5 sctn-spacing2">
+ <section class="py-5 sctn-spacing2" id="networking">
      <div class="container">
 
          <div class="contact-banner text-center p-5">
@@ -12,8 +12,7 @@
              </h2>
 
              <p class="text-light opacity-75 mb-5 mx-auto" style="max-width: 600px;" data-i18n="desc_networking">
-                 Actualmente estoy buscando oportunidades como Desarrolladora Web / Software Engineer. 
-                 Si tienes una vacante disponible, ¡me encantaría platicar contigo!
+                 Actualmente estoy en búsqueda de oportunidades como Desarrolladora .NET. Si tienes una vacante disponible, ¡me encantaría platicar contigo!
              </p>
 
              <div class="d-flex justify-content-center gap-3 flex-wrap">

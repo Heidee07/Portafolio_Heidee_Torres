@@ -95,6 +95,95 @@ a {
     font-weight: 600;
 }
 
+/* ---- Navbar ---- */
+
+.spn1-nav-brand {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: clamp(1.2rem, 1.4vw, 1.45rem);
+    font-weight: bold;
+    font-style: normal;
+}
+
+.spn2-nav-brand {
+    color: #D22AA8;
+    font-family: "Poppins", sans-serif;
+    font-size: clamp(1.2rem, 1.4vw, 1.45rem);
+    font-weight: bold;
+    font-style: normal;
+}
+
+.txt-nav {
+    color: rgba(255, 255, 255, 0.7) !important;
+    font-family: "Poppins", sans-serif;
+    font-size: clamp(0.7rem, 0.9vw, 0.95rem);
+    font-weight: 400;
+    font-style: normal;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    width: fit-content;
+}
+    .txt-nav:hover {
+        color: #D22AA8 !important;
+        text-shadow: 0 0 12px rgba(210, 42, 168, 0.8);
+    }
+
+    .txt-nav::after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 2px;
+        bottom: -2px;
+        left: 50%;
+        background-color: #D22AA8;
+        transition: all 0.3s ease-in-out;
+        transform: translateX(-50%);
+        box-shadow: 0 0 8px rgba(210, 42, 168, 0.6);
+    }
+
+    .txt-nav:hover::after,
+    .nav-link.txt-nav.active::after {
+        width: 100%;
+    }
+
+/* ---- Animación Navbar ---- */
+
+/*Neón*/
+@keyframes neonPulse {
+    0%, 100% {
+        text-shadow: 0 0 5px rgba(210, 42, 168, 0.4), 0 0 10px rgba(210, 42, 168, 0.2);
+    }
+
+    50% {
+        text-shadow: 0 0 12px rgba(210, 42, 168, 0.8), 0 0 20px rgba(210, 42, 168, 0.6);
+    }
+}
+
+.spn2-nav-brand {
+    color: #D22AA8;
+    font-family: "Poppins", sans-serif;
+    font-size: clamp(1.2rem, 1.4vw, 1.45rem);
+    font-weight: bold;
+    animation: neonPulse 2.5s infinite ease-in-out;
+}
+
+/*Cursor terminal*/
+@keyframes blinkCursor {
+    0%, 100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+.spn2-nav-brand::after {
+    content: '_';
+    color: #D22AA8;
+    animation: blinkCursor 1s infinite step-end;
+    margin-left: 2px;
+}
 
 /*_________________________ ÍCONOS _________________________*/
 .i-light {

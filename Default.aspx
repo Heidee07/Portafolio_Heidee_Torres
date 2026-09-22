@@ -5,7 +5,19 @@
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome</title>
+    <title>Welcome | HeiDeev</title>
+    <link rel="icon" href="Images/favicon.png" type="image/png" />
+
+    <%--Google Analitics--%>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5GV03PGN6D"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-5GV03PGN6D');
+    </script>
 </head>
 <body class="body-gradient">
     <link href="Styles/Welcome_Style.css" rel="stylesheet" type="text/css" />
@@ -136,46 +148,6 @@
             }
         });
     </script>
-
-    <%--MAQUINA DE ESCRIBIR Y REDIRECCIÓN AUTOMÁTICA--%>
-   <%-- <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            
-            const textToType = "< Hello World />";
-            const el = document.querySelector('#divTxt h1');
-        
-            const typingSpeed = 120; // Velocidad de escritura
-            const pauseBeforeTransition = 1500; // 1.5 segundos de pausa antes de ir al Home
-
-            let charIndex = 0;
-
-            // Función para escribir
-            function type() {
-                if (charIndex < textToType.length) {
-                    el.textContent += textToType.charAt(charIndex++);
-                    setTimeout(type, typingSpeed);
-                } else {
-                    // Espera un momento y lanza la transición
-                    setTimeout(transitionToHome, pauseBeforeTransition);
-                }
-            }
-
-            // Fade Out y redirección
-            function transitionToHome() {
-                // Quita el cursor
-                el.style.borderRight = 'none'; 
-                            
-                document.body.classList.add('fade-out'); 
-            
-                // 1 segundo (lo que dura el CSS) y redirigimos
-                setTimeout(() => {
-                    window.location.href = '/Home.aspx';
-                }, 1000); 
-            }
-
-            type();
-         });
-    </script>--%>
 
     <%--MAQUINA DE ESCRIBIR Y REDIRECCIÓN AUTOMÁTICA--%>
 <script>

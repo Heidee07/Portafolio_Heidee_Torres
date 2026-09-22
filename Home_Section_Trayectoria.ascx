@@ -1,7 +1,7 @@
 ﻿<%@ Control Language="vb" AutoEventWireup="false" CodeBehind="Home_Section_Trayectoria.ascx.vb" Inherits="Portafolio_Heidee_Torres.Home_Section_Trayectoria" %>
 
  <%-- _____________________ Mi Trayectoria _____________________ --%>
- <section class="py-5 sctn-spacing2">
+ <section class="py-5 sctn-spacing2" id="trayectoria">
      <div class="container">
 
          <div class="row mb-5">

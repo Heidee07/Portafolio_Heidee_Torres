@@ -1,7 +1,7 @@
 ﻿<%@ Control Language="vb" AutoEventWireup="false" CodeBehind="Home_Section_Habilidades.ascx.vb" Inherits="Portafolio_Heidee_Torres.Home_Section_Habilidades" %>
 
 <%-- _____________________ Mis Habilidades _____________________ --%>
-<section class="py-5 sctn-spacing2">
+<section class="py-5 sctn-spacing2" id="habilidades">
     <div class="container">
 
         <div class="row mb-5">
@@ -95,8 +95,8 @@
                             <span>GitHub</span>
                         </div>
                         <div class="tech-item">
-                            <i class="bi bi-file-earmark-word-fill" style="font-size: 2.5rem;"></i>
-                            <span>Office</span>
+                            <i class="devicon-visualstudio-plain" style="font-size: 2.5rem;"></i>
+                            <span>Visual Studio</span>
                         </div>
 
                         <div class="w-100 mt-3 pt-3 border-top border-secondary">

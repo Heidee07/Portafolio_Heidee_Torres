@@ -155,6 +155,7 @@
     <Content Include="Home_Section_Trayectoria.ascx" />
     <Content Include="Images\CoffeeSync_Home.png" />
     <Content Include="Images\dashboard_xml.png" />
+    <Content Include="Images\favicon.png" />
     <Content Include="Images\me.jpg" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -188,7 +189,6 @@
     <Content Include="Styles\Typography_Style.css" />
     <Content Include="Styles\Welcome_Style.css" />
     <Content Include="Styles\Theme_Style.css" />
-    <Content Include="Welcome.aspx" />
     <Content Include="Files\CV-HeideeTorres.pdf" />
     <Content Include="Files\CV-HeideeTorres-EN.pdf" />
     <None Include="Scripts\jquery-3.7.0.intellisense.js" />
@@ -322,13 +322,6 @@
     <Compile Include="Site.Master.vb">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Welcome.aspx.designer.vb">
-      <DependentUpon>Welcome.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Welcome.aspx.vb">
-      <DependentUpon>Welcome.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
